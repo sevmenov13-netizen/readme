@@ -2,7 +2,7 @@
   "builders": [
     {
       "type":      "yandex",
-      "token":     "y0__xD2hffMARjB3RMg1vLh2hQcWIHHLdFF8ZhasfLK-EKkXoIleQ",
+      "token":     "",
       "folder_id": "b1g1fuotvji8nua0p10i",
       "zone":      "ru-central1-a",
 
