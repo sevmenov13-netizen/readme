@@ -1,0 +1,37 @@
+{
+  "builders": [
+    {
+      "type":      "yandex",
+      "token":     "y0__xD2hffMARjB3RMg1vLh2hQcWIHHLdFF8ZhasfLK-EKkXoIleQ",
+      "folder_id": "b1g1fuotvji8nua0p10i",
+      "zone":      "ru-central1-a",
+
+      "image_name":        "debian-11-nginx-{{isotime | clean_resource_name}}",
+      "image_family":      "debian-web-server",
+      "image_description": "my custom debian with nginx",
+
+      "source_image_family": "debian-11",
+      "subnet_id":           "e9bv2bb142f0k764qqhe",
+      "use_ipv4_nat":        true,
+      "disk_type":           "network-hdd",
+      "ssh_username":        "debian"
+    }
+  ],
+  "provisioners": [
+    {
+      "type": "shell",
+      "inline": [
+        "sudo sed -i 's|http://mirror.yandex.ru/debian|http://deb.debian.org/debian|g' /etc/apt/sources.list",
+        "sudo sed -i '/bullseye-backports/d' /etc/apt/sources.list",
+        "echo 'updating APT'",
+        "sudo apt-get update -y",
+        "sudo apt-get install -y nginx",
+        "sudo su -",
+        "sudo systemctl enable nginx.service",
+        "curl localhost"
+        "curl -fsSL https://get.docker.com -o install-docker.sh"
+         "sh ./install-docker.sh"
+      ]
+    }
+  ]
+}
