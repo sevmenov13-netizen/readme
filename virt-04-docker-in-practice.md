@@ -25,7 +25,17 @@ Dockerfile.python
 
  <img width="355" height="244" alt="image" src="https://github.com/user-attachments/assets/d23a9344-1aaf-433b-b275-58ad8a0a48ca" />
 
- Задача 5:
+ Задача 6:
+
+ <img width="1121" height="735" alt="image" src="https://github.com/user-attachments/assets/9a4172f9-d90d-4eec-b12b-fd99aa2bab00" />
+
+ С dive не получилось сделать. Использовал другой способ.
+
+ Задача 6.1:
+
+ <img width="542" height="292" alt="image" src="https://github.com/user-attachments/assets/a83fc1c9-29b4-490a-9878-95fa1aafc5d5" />
+
+
  
 
 
