@@ -35,6 +35,14 @@ Dockerfile.python
 
  <img width="542" height="292" alt="image" src="https://github.com/user-attachments/assets/a83fc1c9-29b4-490a-9878-95fa1aafc5d5" />
 
+ Задача 6: Доработка
+ <img width="950" height="685" alt="image" src="https://github.com/user-attachments/assets/919c953b-fa83-4771-9536-443067513aff" />
+
+ <img width="902" height="660" alt="image" src="https://github.com/user-attachments/assets/7dcd13fd-4530-44da-9d6e-e353ba6875f0" />
+
+
+ 
+
 
  
 
